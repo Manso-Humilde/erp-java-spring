@@ -7,6 +7,8 @@ import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 import java.util.List;
 
+
+@CrossOrigin(origins = "*")
 @RestController
 // http://localhost:8080/api/usuarios
 @RequestMapping("/api/usuarios")
