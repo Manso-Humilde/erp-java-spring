@@ -5,10 +5,10 @@ import com.haciendamanso.erp.model.Usuario;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
-
 import java.util.List;
 
 @RestController
+// http://localhost:8080/api/usuarios
 @RequestMapping("/api/usuarios")
 public class UsuarioController {
 

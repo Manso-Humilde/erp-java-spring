@@ -1,13 +1,11 @@
 package com.haciendamanso.erp;
 
-
 import com.haciendamanso.erp.dao.UsuarioRepository;
 import com.haciendamanso.erp.model.Usuario;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.Bean;
-
 import java.util.Scanner;
 
 @SpringBootApplication
